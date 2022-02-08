@@ -46,7 +46,7 @@ const DeliverFeature = () => {
                 </List>
             </Col>
             <Col display={['block', null, 'none']} colStart={1} colEnd={27}>
-                <Image src='/images/deliver-feat-img-mobile.png' alt='mobile phone screen showing user interface' objectFit='cover' />
+                <Image src='/images/deliver-feat-img-mobile.png' alt='mobile phone screen showing user interface' objectFit='cover' w='100%' />
             </Col>
         </Container>
     );

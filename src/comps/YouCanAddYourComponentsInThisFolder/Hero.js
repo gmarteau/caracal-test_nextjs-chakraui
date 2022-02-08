@@ -24,7 +24,7 @@ const Hero = () => {
             </Col>
             
             <Col colStart={[2, null, 18]} colEnd={[26, null, 25]} h={['auto', null, '640px']} my={['10']} position='relative'>
-                <Image display={['block', null, 'none']} src='/images/hero-mobile.png' alt='Creative guy working' objectFit='cover' />
+                <Image display={['block', null, 'none']} src='/images/hero-mobile.png' alt='Creative guy working' objectFit='cover' width='100%' />
                 <Image display={['none', null, 'block']} h='640px' minWidth='560px' position='absolute' right='0' zIndex='0' src='/images/hero-desktop.png' alt='Creative guy working' objectFit='cover' />
                 <Image display={['none', null, 'block']} src='/images/hand-drawn-arrow.png' position='absolute' bottom='12%' right='80%' />
             </Col>    

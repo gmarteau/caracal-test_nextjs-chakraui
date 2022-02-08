@@ -43,7 +43,7 @@ const ShareFeature = () => {
             </Col>
             <Col colStart={[1, null, 15]} colEnd={[27, null, 27]}>
                 <Image display={['none', null, 'block']} src='/images/share-feat-img.jpg' alt='screen showing user interface' objectFit='cover' w='100%' h='512px' />
-                <Image display={['block', null, 'none']} src='/images/share-feat-img-mobile.png' alt='screen showing user interface' objectFit='cover' />
+                <Image display={['block', null, 'none']} src='/images/share-feat-img-mobile.png' alt='screen showing user interface' objectFit='cover' w='100%' />
             </Col>
         </Container>
     );

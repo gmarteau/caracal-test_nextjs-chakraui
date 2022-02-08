@@ -43,7 +43,7 @@ const ManageFeature = () => {
             </Col>
             <Col colStart={[1, null, 15]} colEnd={[27, null, 27]}>
                 <Image display={['none', null, 'block']} src='/images/manage-feat-img.png' alt='mobile phone screen showing user interface' objectFit='cover' w='100%' h='512px' />
-                <Image display={['block', null, 'none']} src='/images/manage-feat-img-mobile.png' alt='mobile phone screen showing user interface' objectFit='cover' />
+                <Image display={['block', null, 'none']} src='/images/manage-feat-img-mobile.png' alt='mobile phone screen showing user interface' objectFit='cover' w='100%' />
             </Col>
         </Container>
     );
