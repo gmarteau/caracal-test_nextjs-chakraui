@@ -4,16 +4,46 @@
 
 const Button = {
 	// The styles all button have in common
-	baseStyle: {},
+	baseStyle: {
+		borderRadius: '8px',
+		fontWeight: 'regular',
+	},
 
 	// The sizes, for example `sm` and `md`
-	sizes: {},
+	sizes: {
+		lg: {
+			px: '4',
+			fontSize: '16px',
+			height: '44px'
+		},
+		xl: {
+			px: '5',
+			fontSize: '16px',
+			height: '48px'
+		}
+	},
 
 	// The variants, for example `outline` and `solid`
-	variants: {},
+	variants: {
+		solid: {
+			bg: 'primary.600',
+			color: 'white'
+		},
+		light: {
+			bg: 'primary.50',
+			color: 'gray.500'
+		},
+		white: {
+			bg: 'white',
+			color: 'gray.700'
+		}
+	},
 
 	// The default props when you don’t specify any on the Component
-	defaultProps: {},
+	defaultProps: {
+		size: 'lg',
+		variant: 'solid'
+	},
 };
 
 export default Button;

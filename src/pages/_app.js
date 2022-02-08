@@ -1,6 +1,7 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import { round } from 'lodash';
 import PropTypes from 'prop-types';
+import '@fontsource/inter'
 
 import theme from '_comps/Theme';
 

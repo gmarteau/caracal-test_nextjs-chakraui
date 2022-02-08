@@ -1,24 +1,28 @@
-import { Heading, Image } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
-import Container from '_comps/Layout/Container';
-import Col from '_comps/Layout/Col';
+import Header from '_comps/YouCanAddYourComponentsInThisFolder/Header';
+import Hero from '_comps/YouCanAddYourComponentsInThisFolder/Hero';
+import Features from '_comps/YouCanAddYourComponentsInThisFolder/Features';
+import FirstCTA from '_comps/YouCanAddYourComponentsInThisFolder/FirstCTA';
 
 const Home = () => (
-	<Container h="100vh" alignItems="center">
-		<Col colStart={2} colEnd={26} textAlign="center">
-			<Heading as="h1" fontSize="6xl">
-				Hello world
-			</Heading>
-
-			<Image src="/logo_caracal-studio.svg" alt="Caracal Studio’s logo" maxWidth="200" my={8} d="inline" />
-		</Col>
-	</Container>
+	<>
+		<Header />
+		<Box as='main'>
+			<Hero />
+			<Features />
+			<FirstCTA />
+		</Box>
+	</>
 );
 
 export default Home;
 
 export async function getStaticProps() {
 	// ? fetch data from process.env.NEXT_PUBLIC_WORDPRESS_URL and pass the content to the page via props
+	// const res = await fetch(process.env.NEXT_PUBLIC_WORDPRESS_URL);
+	// const json = await res.json();
+	// console.log(json);
 
 	return {
 		props: {
