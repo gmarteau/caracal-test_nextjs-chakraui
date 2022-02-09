@@ -68,6 +68,7 @@ const theme = extendTheme({
 				color: mode('gray.500', 'whiteAlpha.900')(props),
 				bg: mode('white', 'gray.800')(props),
 				lineHeight: 'base',
+				overflowX: 'hidden'
 			},
 		}),
 	},
