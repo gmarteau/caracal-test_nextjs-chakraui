@@ -3,7 +3,11 @@ import { Box } from '@chakra-ui/react';
 import Header from '_comps/YouCanAddYourComponentsInThisFolder/Header';
 import Hero from '_comps/YouCanAddYourComponentsInThisFolder/Hero';
 import Features from '_comps/YouCanAddYourComponentsInThisFolder/Features';
-import FirstCTA from '_comps/YouCanAddYourComponentsInThisFolder/FirstCTA';
+import FreeTrialCTA from '_comps/YouCanAddYourComponentsInThisFolder/FreeTrialCTA';
+import FeaturesShort from '_comps/YouCanAddYourComponentsInThisFolder/FeaturesShort';
+import Quote from '_comps/YouCanAddYourComponentsInThisFolder/Quote';
+import JoinCTA from '_comps/YouCanAddYourComponentsInThisFolder/JoinCTA';
+import NewsletterCTA from '_comps/YouCanAddYourComponentsInThisFolder/NewsletterCTA';
 
 const Home = () => (
 	<>
@@ -11,7 +15,11 @@ const Home = () => (
 		<Box as='main'>
 			<Hero />
 			<Features />
-			<FirstCTA />
+			<FreeTrialCTA />
+			<FeaturesShort />
+			<Quote />
+			<JoinCTA />
+			<NewsletterCTA />
 		</Box>
 	</>
 );

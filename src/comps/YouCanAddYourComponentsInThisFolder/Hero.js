@@ -1,8 +1,8 @@
-import { FormControl, FormHelperText, Heading, Input, Text, Link, Box, Button, Image, Flex } from "@chakra-ui/react";
-import NextLink from 'next/link';
+import { Heading, Text, Image } from "@chakra-ui/react";
 
 import Col from "_comps/Layout/Col";
 import Container from "_comps/Layout/Container";
+import EmailForm from "./elements/EmailForm";
 
 const Hero = () => {
     return (
@@ -14,13 +14,7 @@ const Hero = () => {
                 <Text w={['100%', null, '60%']} color='primary.700' fontSize={['18px', null, '20px']} lineHeight={['28px', null, '30px']} mb='7'>
                     The best customer service software for customer-first teams. Industry-leading email and live chat support.
                 </Text>
-                <Flex as="form" w={['100%', null, '70%']} flexDir={['column', null, 'row']} justifyContent={['center', null, 'space-between']}>
-                    <FormControl mb='4' w={['100%', null, '75%']}>
-                        <Input type='email' placeholder='Enter your email' h='48px' bg='white' color='gray.500' borderColor='gray.300' boxShadow='0px 1px 2px rgba(16, 24, 40, 0.05)' />
-                        <FormHelperText color='primary.500'>We care about your data in our <NextLink href='#' passHref><Link textDecoration='underline'>privacy policy</Link></NextLink></FormHelperText>
-                    </FormControl>
-                    <Button type='submit' variant='solid' size='xl' w={['100%', null, 'min-content']}>Get started</Button>
-                </Flex>
+                <EmailForm submitText='Get started' />
             </Col>
             
             <Col colStart={[2, null, 18]} colEnd={[26, null, 25]} h={['auto', null, '640px']} my={['10']} position='relative'>

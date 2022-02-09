@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Logo from "./Logo";
+import Logo from "./elements/Logo";
 import Container from "_comps/Layout/Container";
 
 const Header = () => {

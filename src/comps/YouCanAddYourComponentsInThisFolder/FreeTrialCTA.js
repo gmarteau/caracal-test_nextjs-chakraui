@@ -2,7 +2,7 @@ import { Box, Button, Flex, Heading, Text } from "@chakra-ui/react";
 import Col from "_comps/Layout/Col";
 import Container from "_comps/Layout/Container";
 
-const FirstCTA = ({}) => {
+const FreeTrialCTA = ({}) => {
     return (
         <Container as='aside' py={['5', null, '7']} mb={['10']}>
             <Col colStart={[2, null, 3]} colEnd={[26, null, 25]} bg='primary.800' borderRadius='16px' p={['5', null, '10']}>
@@ -30,4 +30,4 @@ const FirstCTA = ({}) => {
     );
 };
 
-export default FirstCTA;
+export default FreeTrialCTA;

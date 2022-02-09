@@ -6,7 +6,7 @@ const Button = {
 	// The styles all button have in common
 	baseStyle: {
 		borderRadius: '8px',
-		fontWeight: 'regular',
+		fontWeight: 'medium',
 	},
 
 	// The sizes, for example `sm` and `md`
@@ -27,7 +27,7 @@ const Button = {
 	variants: {
 		solid: {
 			bg: 'primary.600',
-			color: 'white'
+			color: 'white',
 		},
 		light: {
 			bg: 'primary.50',
